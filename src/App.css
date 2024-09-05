@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #333; /* Dark theme for the header */
+  color: white;
+  padding: 20px;
+}
+
+.App-main {
+  background-color: #f0f0f0; /* Light background for contrast */
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #333; /* Matching the header */
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-car-image {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
