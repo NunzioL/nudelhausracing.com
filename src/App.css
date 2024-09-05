@@ -8,16 +8,16 @@
   background-color: #000; /* Black background for header */
   color: #00FFFF; /* Neon blue text */
   padding: 20px 20px; /* Padding for spacing */
-  height: 100px;      /* Height of the header */
+  height: 60px;      /* Height of the header */
   position: relative; /* Ensure logo stays within the header */
 }
 
 /* Logo styling - 33% larger */
 .App-logo {
   position: absolute;  /* Position the logo inside the header */
-  top: 10px;           /* Adjust vertical spacing */
-  left: 20px;          /* Adjust horizontal spacing */
-  width: 130px;        /* 33% larger than 100px */
+  top: -35px;           /* Adjust vertical spacing */
+  left: -20px;          /* Adjust horizontal spacing */
+  width: 180px;        /* 33% larger than 100px */
   height: auto;        /* Maintain aspect ratio */
   z-index: 9999;       /* Bring the logo to the front */
 }

@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* Keep the logo, but remove the text */}
-        <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="Blue Vice Racing Logo" className="App-logo" />
+        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Blue Vice Racing Logo" className="App-logo" />
       </header>
       <main className="App-main">
         <h2>Our Race Car</h2>
