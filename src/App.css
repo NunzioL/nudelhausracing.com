@@ -1,29 +1,48 @@
+/* Styles for the app container */
 .App {
   text-align: center;
 }
 
+/* Header styling */
 .App-header {
-  background-color: #333; /* Dark theme for the header */
-  color: white;
-  padding: 20px;
+  background-color: #000; /* Black background for header */
+  color: #00FFFF; /* Neon blue text */
+  padding: 20px 20px; /* Padding for spacing */
+  height: 100px;      /* Height of the header */
+  position: relative; /* Ensure logo stays within the header */
 }
 
+/* Logo styling - 33% larger */
+.App-logo {
+  position: absolute;  /* Position the logo inside the header */
+  top: 10px;           /* Adjust vertical spacing */
+  left: 20px;          /* Adjust horizontal spacing */
+  width: 130px;        /* 33% larger than 100px */
+  height: auto;        /* Maintain aspect ratio */
+  z-index: 9999;       /* Bring the logo to the front */
+}
+
+/* Main content area styling */
 .App-main {
-  background-color: #f0f0f0; /* Light background for contrast */
+  background-color: #FF69B4; /* Hot pink for the Miami Vice vibe */
+  color: white; /* White text */
   padding: 20px;
 }
 
+/* Footer styling */
 .App-footer {
-  background-color: #333; /* Matching the header */
-  color: white;
+  background-color: #000; /* Black background for footer */
+  color: #00FFFF; /* Neon blue text */
   padding: 20px;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
+/* Styling for the car image */
 .App-car-image {
   max-width: 100%;
   height: auto;
   padding: 20px;
+  border: 3px solid #00FFFF; /* Neon blue border around the car image */
 }
