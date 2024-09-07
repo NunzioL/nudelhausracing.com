@@ -5,9 +5,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Keep the logo, but remove the text */}
+        {/* Corrected logo file reference to logo.png */}
         <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Blue Vice Racing Logo" className="App-logo" />
+        
+        {/* Buttons on the right */}
+        <nav className="App-nav">
+          <button className="nav-button">About Us</button>
+          <button className="nav-button">Contact</button>
+        </nav>
       </header>
+      
       <main className="App-main">
         <h2>Our Race Car</h2>
         <p>
@@ -15,6 +22,7 @@ function App() {
         </p>
         <img src={`${process.env.PUBLIC_URL}/finish_line.jpg`} alt="Finish Line" className="App-car-image" />
       </main>
+      
       <footer className="App-footer">
         <p>&copy; 2024 Blue Vice Racing. All Rights Reserved.</p>
       </footer>

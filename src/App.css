@@ -1,48 +1,44 @@
-/* Styles for the app container */
-.App {
-  text-align: center;
-}
-
 /* Header styling */
 .App-header {
   background-color: #000; /* Black background for header */
   color: #00FFFF; /* Neon blue text */
-  padding: 20px 20px; /* Padding for spacing */
-  height: 60px;      /* Height of the header */
-  position: relative; /* Ensure logo stays within the header */
+  padding: 20px;
+  height: 80px;
+  position: relative;
 }
 
-/* Logo styling - 33% larger */
+/* Logo styling */
 .App-logo {
-  position: absolute;  /* Position the logo inside the header */
-  top: -35px;           /* Adjust vertical spacing */
-  left: -20px;          /* Adjust horizontal spacing */
-  width: 180px;        /* 33% larger than 100px */
-  height: auto;        /* Maintain aspect ratio */
-  z-index: 9999;       /* Bring the logo to the front */
-}
-
-/* Main content area styling */
-.App-main {
-  background-color: #FF69B4; /* Hot pink for the Miami Vice vibe */
-  color: white; /* White text */
-  padding: 20px;
-}
-
-/* Footer styling */
-.App-footer {
-  background-color: #000; /* Black background for footer */
-  color: #00FFFF; /* Neon blue text */
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-/* Styling for the car image */
-.App-car-image {
-  max-width: 100%;
+  margin-top: -35px;   /* Adjust this value to move the logo up */
+  margin-left: -30px;  /* Adjust this value to move the logo left */
+  width: 150px;       /* Keep logo size */
   height: auto;
-  padding: 20px;
-  border: 3px solid #00FFFF; /* Neon blue border around the car image */
 }
+
+
+/* Navigation buttons */
+.App-nav {
+  position: absolute;  /* Make the nav section position relative to the screen */
+  top: 35px;           /* Distance from the top of the screen */
+  right: 30px;         /* Distance from the right of the screen */
+}
+
+/* Button styling */
+.nav-button {
+  background-color: #00FFFF; /* Neon blue button background */
+  color: black;              /* Button text color */
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.nav-button + .nav-button {
+  margin-left: 20px;         /* Increase the gap between the buttons */
+}
+
+.nav-button:hover {
+  background-color: #00ced1; /* Slightly darker color on hover */
+}
+
